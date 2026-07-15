@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: floreria-backend
+    runtime: php
+    buildCommand: "composer install"
+    startCommand: "php public/index.php"
